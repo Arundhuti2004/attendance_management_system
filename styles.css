@@ -1,0 +1,133 @@
+*{
+font-family: "Trirong", serif;
+}
+h1{
+text-align:center;
+color: #ef9f43;
+
+}
+body{
+background-image: linear-gradient(to right, rgb(70, 46, 3), rgb(201, 121, 9));
+
+}
+
+
+.pdate{
+background-color:rgb(219, 142, 26);
+text-align:center;
+border-radius: 9px;
+height: 25px;
+width: 200px;
+align-items: center;
+margin-bottom: 10px;
+margin-left: auto;
+margin-right: auto;
+}
+p{
+    color: #ccc;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    background-color: #131212;
+    box-shadow: 0 4px 8px rgb(244, 252, 255);
+    
+}
+
+h2 {
+    text-align: center;
+    color: #f3e6e6;
+    font-weight: bold;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #efdbdb;
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%; /* Changed to 100% */
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background-color: #e39313;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+button:hover {
+    background-color: #1e1ee8;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0056b3;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #000;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #fff; /* Dashed border */
+    color: #fff; /* White text */
+}
+
+table th {
+    background-color: #333; /* Dark gray background for header */
+    font-weight: bold;
+    text-align: left;
+}
+.group{
+    color:rgb(10, 9, 9);
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    line-height: 0;
+}
+.team{
+    margin-right: 45px ;
+}
